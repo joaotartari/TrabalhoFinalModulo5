@@ -1,0 +1,46 @@
+body{
+    background-color: skyblue;
+    margin: 0px;
+}
+#gameboard{
+    height: 345px;
+    width: 345px;
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+    visibility: hidden;
+    position: relative;
+    left:600px;
+    top: 40px;
+}
+.square{
+    background-color: white;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    height: 110px;
+    width: 110px;
+    float: left;
+    font-weight: bold;
+    font-size: 80px;
+    color: black;
+    text-align: center;
+    margin:0px;
+}
+#painel{
+    color: white;
+    font-size: 40px;
+}
+header{
+    border-bottom: 3px solid white;
+    text-align: center;
+}
+#start{
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
