@@ -9,7 +9,7 @@ body{
     border-left: 5px solid black;
     visibility: hidden;
     position: relative;
-    left:600px;
+    margin: auto;
     top: 40px;
 }
 .square{
