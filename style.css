@@ -1,5 +1,5 @@
 body{
-    background-color: skyblue;
+    background-color:#15bcad;
     margin: 0px;
 }
 #gameboard{
@@ -20,24 +20,77 @@ body{
     width: 110px;
     float: left;
     font-weight: bold;
-    font-size: 80px;
+    font-size: 5rem;
     color: black;
     text-align: center;
     margin:0px;
 }
 #painel{
     color: white;
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 header{
     border-bottom: 3px solid white;
     text-align: center;
 }
-#start{
-    margin-bottom: 5px;
-    font-size: 20px;
+main{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+#inicio{
+    display: flex;
+    width: auto;
+    justify-content: space-evenly;
+}
+#apresentacao__main__parte1__image{
+    width: 30%;
+    border-radius: 20px;
+}
+#apresentacao__main__parte1__dados{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
 }
 
+#start{
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    display: inline-block;
+    font-weight: 400;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid transparent;
+    margin: 0;
+    margin-bottom: 5px;
+    width: 10%;
+}
+#div_button{
+    box-sizing: border-box;
+    padding-top: 5%;
+    text-align: center;
+}
+#formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#div_button{
+    text-align: center;
+}
+
+#div_button button{
+    width: 50%;
+}
 
 
 
