@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/static/css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <title>Title</title>
+    </head>
+    <body>
+        <header>
+            <h1 id="tittle">
+                Bem-vindo ao Jogo da Velha
+            </h1>
+        </header>
+        <main>
+            <img id="imagem" src='/static/images/por-que-o-jogo-da-velha-tem-esse-nome%201.png' alt="jogo da velha">
+            <form action="/startGame" method="post">
+                <div>
+                    <label for="jogador 1">Jogador 1</label>
+                    <input type="text" id="jogador 1" placeholder="Digite o nome do Jogador 1" required minlength="3" maxlength="10" name="jogador1">
+                </div>
+                <div>
+                    <label for="jogador 2">Jogador 2</label>
+                    <input type="text"  id="jogador 2" placeholder="Digite o nome do Jogador 2" required minlength="3" maxlength="10" name="jogador2">
+                </div>
+                <button type="submit">Iniciar</button>
+            </form>
+        </main>
+    </body>
+</html>

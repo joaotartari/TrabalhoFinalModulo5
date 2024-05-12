@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/static/css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <title>Title</title>
+    </head>
+    <body>
+        <header>
+            <h1 id="tittle">
+                {{ jogador1 }} {{ jogador2 }}
+            </h1>
+        </header>
+        <main>
+            <div id="gameboard">
+                <div id="r1" class="row">
+                    <div id="r1c1" class="column">
+
+                    </div>
+                    <div id="r1c2" class="column">
+
+                    </div>
+                    <div id="r1c3" class="column">
+
+                    </div>
+                </div>
+                <div id="r2" class="row">
+                    <div id="r2c1" class="column">
+
+                    </div>
+                    <div id="r2c2" class="column">
+
+                    </div>
+                    <div id="r2c3" class="column">
+
+                    </div>
+                </div>
+                <div id="r3" class="row">
+                    <div id="r3c1" class="column">
+
+                    </div>
+                    <div id="r3c2" class="column">
+
+                    </div>
+                    <div id="r3c3" class="column">
+
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+    <script>
+        window.jogador1 = '{{ jogador1 }}'; // Interpolação de string do Flask
+        window.jogador2 = '{{ jogador2 }}'; // Interpolação de string do Flask
+    </script>
+<script src="/static/js/script.js"></script>
+
+</script>
+</html>
