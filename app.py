@@ -9,9 +9,6 @@ def jogoDaVelha():
     return render_template('index.html')
 
 
-
-
-
 @app.route('/startGame', methods=['POST'])
 def startGame():
     jogador1 = request.form['jogador1']
